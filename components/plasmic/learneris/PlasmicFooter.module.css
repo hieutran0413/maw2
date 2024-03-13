@@ -63,13 +63,13 @@
   > img {
   margin-left: 20px;
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___3ZOwT {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___3ZOwT > :global(.__wab_flex-container) {
     flex-direction: column;
     margin-left: calc(0px - 0px);
@@ -78,7 +78,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___3ZOwT > :global(.__wab_flex-container) > *,
   .freeBox___3ZOwT > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox___3ZOwT > :global(.__wab_flex-container) > picture > img,
@@ -177,13 +177,13 @@
   > img {
   margin-left: 32px;
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox__x9UDd {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox__x9UDd > :global(.__wab_flex-container) {
     flex-direction: column;
     margin-left: calc(0px - 0px);
@@ -192,7 +192,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox__x9UDd > :global(.__wab_flex-container) > *,
   .freeBox__x9UDd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__x9UDd > :global(.__wab_flex-container) > picture > img,
@@ -503,13 +503,13 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___0LsSq {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___0LsSq > :global(.__wab_flex-container) {
     flex-direction: column;
     margin-left: calc(0px - 0px);
@@ -518,7 +518,7 @@
     height: calc(100% + 8px);
   }
 }
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 320px) {
   .freeBox___0LsSq > :global(.__wab_flex-container) > *,
   .freeBox___0LsSq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox___0LsSq > :global(.__wab_flex-container) > picture > img,

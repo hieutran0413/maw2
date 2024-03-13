@@ -59,7 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
-import Header from "../../Header"; // plasmic-import: r-4qtY_x5_0e/component
+import Nav from "../../Nav"; // plasmic-import: TP56wp8NVJSl/component
 import Section from "../../Section"; // plasmic-import: JTFRLPwFrqzM/component
 import Button from "../../Button"; // plasmic-import: rZUw2Cha7jlC/component
 import FeatureCard from "../../FeatureCard"; // plasmic-import: cBs3RBPSjzud/component
@@ -102,7 +102,7 @@ export const PlasmicHome__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHome__OverridesType = {
   root?: Flex__<"div">;
-  header?: Flex__<typeof Header>;
+  nav?: Flex__<typeof Nav>;
   topSection?: Flex__<typeof Section>;
   solutions?: Flex__<typeof Section>;
   columns?: Flex__<"div">;
@@ -178,10 +178,10 @@ function PlasmicHome__RenderFunc(props: {
             sty.root
           )}
         >
-          <Header
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames("__wab_instance", sty.header)}
+          <Nav
+            data-plasmic-name={"nav"}
+            data-plasmic-override={overrides.nav}
+            className={classNames("__wab_instance", sty.nav)}
           />
 
           <Section
@@ -207,7 +207,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text__gBgpB
                     )}
                   >
-                    {"Make your site"}
+                    {"A new chapter in education excellent"}
                   </div>
                   <div
                     className={classNames(
@@ -218,17 +218,6 @@ function PlasmicHome__RenderFunc(props: {
                   >
                     {"wonderful"}
                   </div>
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__ljhm
-                  )}
-                >
-                  {
-                    "Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever."
-                  }
                 </div>
               </Stack__>
               <Stack__
@@ -572,7 +561,7 @@ function PlasmicHome__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
+    "nav",
     "topSection",
     "solutions",
     "columns",
@@ -582,7 +571,7 @@ const PlasmicDescendants = {
     "homeCta",
     "footer"
   ],
-  header: ["header"],
+  nav: ["nav"],
   topSection: ["topSection"],
   solutions: ["solutions", "columns"],
   columns: ["columns"],
@@ -597,7 +586,7 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  header: typeof Header;
+  nav: typeof Nav;
   topSection: typeof Section;
   solutions: typeof Section;
   columns: "div";
@@ -668,7 +657,7 @@ export const PlasmicHome = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
+    nav: makeNodeComponent("nav"),
     topSection: makeNodeComponent("topSection"),
     solutions: makeNodeComponent("solutions"),
     columns: makeNodeComponent("columns"),
