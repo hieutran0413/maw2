@@ -18,44 +18,45 @@
       "projectId": "bGRPhgjN4EpLyGua5e921e",
       "version": "latest",
       "dependencies": {
-        "seaQhLVS4bbjiGvJJrRwyL": "15.0.3"
+        "seaQhLVS4bbjiGvJJrRwyL": "15.0.3",
+        "7nJ7UcFmq9UzB6eXfC5z4a": "0.26.0"
       },
       "lang": "ts",
       "fileLocks": [
         {
           "type": "globalVariant",
           "assetId": "UNIj0aSl86d7",
-          "checksum": "576f6bb542835c724fc8e6725ac14808"
+          "checksum": "96372bb0cc5ed278daaa6c6b60b40144"
         },
         {
           "type": "renderModule",
           "assetId": "f07avpzBECLA",
-          "checksum": "84c643453144640ff6886ae33bcee509"
+          "checksum": "20d21378c4887a8e33caf5597b891455"
         },
         {
           "type": "cssRules",
           "assetId": "f07avpzBECLA",
-          "checksum": "84c643453144640ff6886ae33bcee509"
+          "checksum": "20d21378c4887a8e33caf5597b891455"
         },
         {
           "type": "renderModule",
           "assetId": "r-4qtY_x5_0e",
-          "checksum": "8277771f0d0d008362c50bc68bc02e94"
+          "checksum": "177137844f17c08af0952d4939dbd7de"
         },
         {
           "type": "cssRules",
           "assetId": "r-4qtY_x5_0e",
-          "checksum": "8277771f0d0d008362c50bc68bc02e94"
+          "checksum": "177137844f17c08af0952d4939dbd7de"
         },
         {
           "type": "renderModule",
           "assetId": "MsTwhh1TunkX",
-          "checksum": "5bb55705e85359b5331325d5ff85b5cb"
+          "checksum": "3261316155b10cfe0472d699ea9604fc"
         },
         {
           "type": "cssRules",
           "assetId": "MsTwhh1TunkX",
-          "checksum": "5bb55705e85359b5331325d5ff85b5cb"
+          "checksum": "3261316155b10cfe0472d699ea9604fc"
         },
         {
           "type": "renderModule",
@@ -70,12 +71,12 @@
         {
           "type": "renderModule",
           "assetId": "Ag0evssas2_B",
-          "checksum": "03454655566e1faf697d0d14a829c1fa"
+          "checksum": "e31f3b351aae93e616552a77d627945b"
         },
         {
           "type": "cssRules",
           "assetId": "Ag0evssas2_B",
-          "checksum": "03454655566e1faf697d0d14a829c1fa"
+          "checksum": "e31f3b351aae93e616552a77d627945b"
         },
         {
           "type": "renderModule",
@@ -110,12 +111,12 @@
         {
           "type": "renderModule",
           "assetId": "0DMXnYXl1cqn",
-          "checksum": "ef4cafb9494897ecf0b14a195481f281"
+          "checksum": "a976a3a82bc7d5a9916b91d6298929bf"
         },
         {
           "type": "cssRules",
           "assetId": "0DMXnYXl1cqn",
-          "checksum": "ef4cafb9494897ecf0b14a195481f281"
+          "checksum": "a976a3a82bc7d5a9916b91d6298929bf"
         },
         {
           "type": "renderModule",
@@ -160,12 +161,12 @@
         {
           "type": "renderModule",
           "assetId": "KOngUlgD51IE",
-          "checksum": "1a9f61978cbd1ed20e5eb251ad8f0b62"
+          "checksum": "9de350a882806fd441a6a61d12693855"
         },
         {
           "type": "cssRules",
           "assetId": "KOngUlgD51IE",
-          "checksum": "1a9f61978cbd1ed20e5eb251ad8f0b62"
+          "checksum": "9de350a882806fd441a6a61d12693855"
         },
         {
           "type": "renderModule",
@@ -330,7 +331,36 @@
         {
           "assetId": "bGRPhgjN4EpLyGua5e921e",
           "type": "projectCss",
-          "checksum": "298c9841cf498354f38738876e9c2fb6"
+          "checksum": "b225ae98a37f27fef86c6043e33814eb"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "TP56wp8NVJSl",
+          "checksum": "96d3d726d68670e7c29f493033ce022f"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "TP56wp8NVJSl",
+          "checksum": "96d3d726d68670e7c29f493033ce022f"
+        },
+        {
+          "type": "icon",
+          "assetId": "3ICXQJTFQC63",
+          "checksum": "abfb7439d831267508bed36ac18b39df"
+        }
+      ],
+      "codegenVersion": "0.0.1"
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "version": "0.26.0",
+      "dependencies": {},
+      "lang": "ts",
+      "fileLocks": [
+        {
+          "assetId": "7nJ7UcFmq9UzB6eXfC5z4a",
+          "type": "projectCss",
+          "checksum": "05587b57f22f0ec8bb54543deb39762e"
         }
       ],
       "codegenVersion": "0.0.1"
