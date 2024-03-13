@@ -207,7 +207,7 @@ function PlasmicHome__RenderFunc(props: {
                       sty.text__gBgpB
                     )}
                   >
-                    {"Make your website"}
+                    {"Make your site"}
                   </div>
                   <div
                     className={classNames(
