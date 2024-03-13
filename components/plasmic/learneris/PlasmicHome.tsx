@@ -209,15 +209,6 @@ function PlasmicHome__RenderFunc(props: {
                   >
                     {"A new chapter in education excellent"}
                   </div>
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___18I60
-                    )}
-                  >
-                    {"wonderful"}
-                  </div>
                 </div>
               </Stack__>
               <Stack__
