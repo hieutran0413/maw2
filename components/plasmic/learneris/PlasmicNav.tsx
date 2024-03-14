@@ -66,6 +66,7 @@ import { useScreenVariants as useScreenVariantsunIj0ASl86D7 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import plasmic_library_plasmic_color_type_css from "../library_plasmic_color_type/plasmic.module.css"; // plasmic-import: seaQhLVS4bbjiGvJJrRwyL/projectcss
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic.module.css"; // plasmic-import: bGRPhgjN4EpLyGua5e921e/projectcss
 import sty from "./PlasmicNav.module.css"; // plasmic-import: TP56wp8NVJSl/css
 
@@ -145,6 +146,7 @@ function PlasmicNav__RenderFunc(props: {
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
         plasmic_library_plasmic_color_type_css.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
     >
